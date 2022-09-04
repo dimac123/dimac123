@@ -1,8 +1,6 @@
-- 👋 Hi, I’m @dimac1234
-- 👀 I’m interested in Data
-- 🌱 I’m currently learning ...
-- 💞️ I’m looking to collaborate on ...
-- 📫 How to reach me ...
+- 👋 Приветствую, меня зовут Дима
+- 👀 Я интересуюсь Data Engeneting
+
 
 <!---
 dimac123/dimac123 is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
