@@ -12,4 +12,3 @@ select count(distinct order_id) from orders
 --количество заказов без возвратов
 select count(distinct orders.order_id) from orders
 where orders.order_id not in (select distinct order_id from returns)
- 
