@@ -7,9 +7,9 @@
 - 2.3 [returns]
 
 **SQL запросы к БД**
-- [query]
+- 3 [query]
 
 [orders]: <https://github.com/dimac123/dimac123/blob/main/DE-101/Module2/2.1%20orders.sql>
 [people]: <https://github.com/dimac123/dimac123/blob/main/DE-101/Module2/2.2%20people.sql>
 [returns]: <https://github.com/dimac123/dimac123/blob/main/DE-101/Module2/2.3%20returns.sql>
-[query]: <https://github.com/dimac123/dimac123/blob/main/DE-101/Module2/Query.sql>
+[query]: <https://github.com/dimac123/dimac123/blob/main/DE-101/Module2/3%203Query.sql>
