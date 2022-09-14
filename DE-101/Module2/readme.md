@@ -9,6 +9,9 @@
 **SQL запросы к БД**
 - 3 [query]
 
+**Модель данных в SQLdbm для создания новой БД**
+
+
 [orders]: <https://github.com/dimac123/dimac123/blob/main/DE-101/Module2/2.1%20orders.sql>
 [people]: <https://github.com/dimac123/dimac123/blob/main/DE-101/Module2/2.2%20people.sql>
 [returns]: <https://github.com/dimac123/dimac123/blob/main/DE-101/Module2/2.3%20returns.sql>
