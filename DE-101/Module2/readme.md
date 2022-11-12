@@ -27,3 +27,5 @@
 [people]: <https://github.com/dimac123/dimac123/blob/main/DE-101/Module2/2.2%20people.sql>
 [returns]: <https://github.com/dimac123/dimac123/blob/main/DE-101/Module2/2.3%20returns.sql>
 [query]: <https://github.com/dimac123/dimac123/blob/main/DE-101/Module2/3%203Query.sql>
+
+**Создание графиков в Google data studio**
