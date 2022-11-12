@@ -29,4 +29,5 @@
 [query]: <https://github.com/dimac123/dimac123/blob/main/DE-101/Module2/3%203Query.sql>
 
 **Создание графиков в Google data studio**
+
 ![Иллюстрация к проекту](https://github.com/dimac123/dimac123/blob/main/DE-101/Module2/datastudio.JPG)
