@@ -28,13 +28,16 @@
 [returns]: <https://github.com/dimac123/dimac123/blob/main/DE-101/Module2/2.3%20returns.sql>
 [query]: <https://github.com/dimac123/dimac123/blob/main/DE-101/Module2/3%203Query.sql>
 
+
 **Создание БД PosgreSQL в AWS. Включаем публичное сетевое подключение**
 
 ![Иллюстрация к проекту](https://github.com/dimac123/dimac123/blob/main/DE-101/Module2/AWS.JPG)
 
+
 **Подключение БД PosgreSQL из VPC AWS. Заполнение БД данными**
 
 ![Иллюстрация к проекту](https://github.com/dimac123/dimac123/blob/main/DE-101/Module2/VPC_AWS.JPG)
+
 
 **Создание графиков в Google data studio**
 
