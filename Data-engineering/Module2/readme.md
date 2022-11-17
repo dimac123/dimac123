@@ -17,11 +17,11 @@
 
 *Логическая модель*
 
-![Иллюстрация к проекту](https://github.com/dimac123/dimac123/blob/main/DE-101/Module2/4.2%20Logical%20model.JPG)
+![Иллюстрация к проекту](https://github.com/dimac123/dimac123/blob/main/Data-engineering/Module2/4.2%20Logical%20model.JPG)
 
 *Физическая модель*
 
-![Иллюстрация к проекту](https://github.com/dimac123/dimac123/blob/main/DE-101/Module2/4.3%20Physical%20model.JPG)
+![Иллюстрация к проекту](https://github.com/dimac123/dimac123/blob/main/Data-engineering/Module2/4.3%20Physical%20model.JPG)
 
 [orders]: <https://github.com/dimac123/dimac123/blob/main/Data-engineering/Module2/2.1%20orders.sql>
 [people]: <https://github.com/dimac123/dimac123/blob/main/Data-engineering/Module2/2.2%20people.sql>
