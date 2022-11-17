@@ -12,8 +12,8 @@
 
 *Продажи региональных менеджеров (side-by-side bars). Фильтры: по менеджерам, диапозон дат, определенного года*
 
-![Иллюстрация к проекту](https://github.com/dimac123/dimac123/blob/main/Data-engineering/Module2/4.2%20Logical%20mode3.JPG)
+![Иллюстрация к проекту](https://github.com/dimac123/dimac123/blob/main/Data-engineering/Module3/Tableau3.JPG)
 
 *Доля продаж по регионам (packed bubbles). Фильтры: диапозон сум продаж, определенного года, Региона
 
-![Иллюстрация к проекту](https://github.com/dimac123/dimac123/blob/main/Data-engineering/Module2/4.2%20Logical%20mode4.JPG)
+![Иллюстрация к проекту](https://github.com/dimac123/dimac123/blob/main/Data-engineering/Module3/Tableau4.JPG)
