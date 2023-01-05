@@ -1,5 +1,9 @@
 ## Устанавливаем Pentaho на локальный компьютер. Установка java (jdk+jre), настройка переменных сред
 
+**Создаем подключение к БД**
+
+![Иллюстрация к проекту](https://github.com/dimac123/dimac123/blob/main/Data-engineering/Module4/Pentaho5.JPG)
+
 В этой папке находятся:
 - `staging orders.ktr` - трансформация, которая загружает данные из файлы Superstore в Postgres
 - `dim_tables.ktr` и `sales_fact` - трансформация, которая трансформирует данные (T в ETL) внутри нашей базы данных
