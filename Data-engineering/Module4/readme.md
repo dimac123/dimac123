@@ -23,11 +23,13 @@
 ![Иллюстрация к проекту](https://github.com/dimac123/dimac123/blob/main/Data-engineering/Module4/Pentaho2.JPG)
 
 
+**sales_fact.ktr**
+
+![Иллюстрация к проекту](https://github.com/dimac123/dimac123/blob/main/Data-engineering/Module4/Pentaho4.JPG)
+
+
 **Pentaho Job.kjb**
 
 ![Иллюстрация к проекту](https://github.com/dimac123/dimac123/blob/main/Data-engineering/Module4/Pentaho3.JPG)
 
 
-**sales_fact.ktr**
-
-![Иллюстрация к проекту](https://github.com/dimac123/dimac123/blob/main/Data-engineering/Module4/Pentaho4.JPG)
