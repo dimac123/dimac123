@@ -6,7 +6,7 @@
 - `Pentaho Job.kjb` - главный job, который выполняет последовательность трансформаций (оркестрирует нашим data pipeline)
 
 **staging orders.ktr**
-![Иллюстрация к проекту](https://github.com/dimac123/dimac123/Data-engineering\Module4/Pentaho.JPG)
+![Иллюстрация к проекту](https://github.com/dimac123/dimac123/blob/main/Data-engineering/Module4/Pentaho.JPG)
 
 **dim_tables.ktr**
 ![Иллюстрация к проекту](https://github.com/dimac123/dimac123/blob/main/Data-engineering/Module4/Pentaho2.JPG)
