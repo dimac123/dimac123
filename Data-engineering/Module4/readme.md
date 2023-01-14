@@ -44,6 +44,7 @@ Alteryx
 
 ![Иллюстрация к проекту](https://github.com/dimac123/dimac123/blob/main/Data-engineering/Module4/Pentaho3.JPG)
 
+
 ## Устанавливаем Alteryx на локальный компьютер
 
 
