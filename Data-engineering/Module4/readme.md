@@ -1,4 +1,5 @@
 В этой папке Module4 находятся:
+
 Pentaho
 - `staging orders.ktr` - трансформация, которая загружает данные из файлы Superstore в Postgres
 - `dim_tables.ktr` и `sales_fact.ktr` - трансформация, которая трансформирует данные (T в ETL) внутри нашей базы данных
