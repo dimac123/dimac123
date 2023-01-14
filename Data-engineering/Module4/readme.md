@@ -44,4 +44,8 @@ Alteryx
 
 ![Иллюстрация к проекту](https://github.com/dimac123/dimac123/blob/main/Data-engineering/Module4/Pentaho3.JPG)
 
+## Устанавливаем Alteryx на локальный компьютер
 
+
+## Запуск Workflow с трансформаций (Join sheets, сумма+группировка)
+![Иллюстрация к проекту](https://github.com/dimac123/dimac123/blob/main/Data-engineering/Module4/Alteryx.JPG)
