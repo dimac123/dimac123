@@ -1,0 +1,280 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2022.3">
+  <Nodes>
+    <Node ToolID="1">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="102" y="78" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="8">C:\Git\dimac123\Data-engineering\Module1\Sample - Superstore.xls|||`Orders$`</File>
+          <FormatSpecificOptions>
+            <FirstRowData>False</FirstRowData>
+            <NoProgress>False</NoProgress>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Sample - Superstore.xls
+Query=`Orders$`</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Row ID" source="File: C:\Git\dimac123\Data-engineering\Module1\Sample - Superstore.xls|||`Orders$`" type="Double" />
+            <Field name="Order ID" size="255" source="File: C:\Git\dimac123\Data-engineering\Module1\Sample - Superstore.xls|||`Orders$`" type="V_WString" />
+            <Field name="Order Date" source="File: C:\Git\dimac123\Data-engineering\Module1\Sample - Superstore.xls|||`Orders$`" type="DateTime" />
+            <Field name="Ship Date" source="File: C:\Git\dimac123\Data-engineering\Module1\Sample - Superstore.xls|||`Orders$`" type="DateTime" />
+            <Field name="Ship Mode" size="255" source="File: C:\Git\dimac123\Data-engineering\Module1\Sample - Superstore.xls|||`Orders$`" type="V_WString" />
+            <Field name="Customer ID" size="255" source="File: C:\Git\dimac123\Data-engineering\Module1\Sample - Superstore.xls|||`Orders$`" type="V_WString" />
+            <Field name="Customer Name" size="255" source="File: C:\Git\dimac123\Data-engineering\Module1\Sample - Superstore.xls|||`Orders$`" type="V_WString" />
+            <Field name="Segment" size="255" source="File: C:\Git\dimac123\Data-engineering\Module1\Sample - Superstore.xls|||`Orders$`" type="V_WString" />
+            <Field name="Country" size="255" source="File: C:\Git\dimac123\Data-engineering\Module1\Sample - Superstore.xls|||`Orders$`" type="V_WString" />
+            <Field name="City" size="255" source="File: C:\Git\dimac123\Data-engineering\Module1\Sample - Superstore.xls|||`Orders$`" type="V_WString" />
+            <Field name="State" size="255" source="File: C:\Git\dimac123\Data-engineering\Module1\Sample - Superstore.xls|||`Orders$`" type="V_WString" />
+            <Field name="Postal Code" source="File: C:\Git\dimac123\Data-engineering\Module1\Sample - Superstore.xls|||`Orders$`" type="Double" />
+            <Field name="Region" size="255" source="File: C:\Git\dimac123\Data-engineering\Module1\Sample - Superstore.xls|||`Orders$`" type="V_WString" />
+            <Field name="Product ID" size="255" source="File: C:\Git\dimac123\Data-engineering\Module1\Sample - Superstore.xls|||`Orders$`" type="V_WString" />
+            <Field name="Category" size="255" source="File: C:\Git\dimac123\Data-engineering\Module1\Sample - Superstore.xls|||`Orders$`" type="V_WString" />
+            <Field name="Sub-Category" size="255" source="File: C:\Git\dimac123\Data-engineering\Module1\Sample - Superstore.xls|||`Orders$`" type="V_WString" />
+            <Field name="Product Name" size="255" source="File: C:\Git\dimac123\Data-engineering\Module1\Sample - Superstore.xls|||`Orders$`" type="V_WString" />
+            <Field name="Sales" source="File: C:\Git\dimac123\Data-engineering\Module1\Sample - Superstore.xls|||`Orders$`" type="Double" />
+            <Field name="Quantity" source="File: C:\Git\dimac123\Data-engineering\Module1\Sample - Superstore.xls|||`Orders$`" type="Double" />
+            <Field name="Discount" source="File: C:\Git\dimac123\Data-engineering\Module1\Sample - Superstore.xls|||`Orders$`" type="Double" />
+            <Field name="Profit" source="File: C:\Git\dimac123\Data-engineering\Module1\Sample - Superstore.xls|||`Orders$`" type="Double" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="4">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="102" y="222" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="8">C:\Git\dimac123\Data-engineering\Module1\Sample - Superstore.xls|||`People$`</File>
+          <FormatSpecificOptions>
+            <FirstRowData>False</FirstRowData>
+            <NoProgress>False</NoProgress>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Sample - Superstore.xls
+Query=`People$`</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Person" size="255" source="File: C:\Git\dimac123\Data-engineering\Module1\Sample - Superstore.xls|||`People$`" type="V_WString" />
+            <Field name="Region" size="255" source="File: C:\Git\dimac123\Data-engineering\Module1\Sample - Superstore.xls|||`People$`" type="V_WString" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="5">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+        <Position x="270" y="150" />
+      </GuiSettings>
+      <Properties>
+        <Configuration joinByRecordPos="False">
+          <JoinInfo connection="Left">
+            <Field field="Customer Name" />
+          </JoinInfo>
+          <JoinInfo connection="Right">
+            <Field field="Person" />
+          </JoinInfo>
+          <SelectConfiguration>
+            <Configuration outputConnection="Join">
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="Left_Row ID" selected="True" input="Left_" />
+                <SelectField field="Left_Order ID" selected="True" input="Left_" />
+                <SelectField field="Left_Order Date" selected="True" input="Left_" />
+                <SelectField field="Left_Ship Date" selected="True" input="Left_" />
+                <SelectField field="Left_Ship Mode" selected="True" input="Left_" />
+                <SelectField field="Left_Customer ID" selected="True" input="Left_" />
+                <SelectField field="Left_Customer Name" selected="True" input="Left_" />
+                <SelectField field="Left_Segment" selected="True" input="Left_" />
+                <SelectField field="Left_Country" selected="True" input="Left_" />
+                <SelectField field="Left_City" selected="True" input="Left_" />
+                <SelectField field="Left_State" selected="True" input="Left_" />
+                <SelectField field="Left_Postal Code" selected="True" input="Left_" />
+                <SelectField field="Left_Region" selected="True" input="Left_" />
+                <SelectField field="Left_Product ID" selected="True" input="Left_" />
+                <SelectField field="Left_Category" selected="True" input="Left_" />
+                <SelectField field="Left_Sub-Category" selected="True" input="Left_" />
+                <SelectField field="Left_Product Name" selected="True" input="Left_" />
+                <SelectField field="Left_Sales" selected="True" input="Left_" />
+                <SelectField field="Left_Quantity" selected="True" input="Left_" />
+                <SelectField field="Left_Discount" selected="True" input="Left_" />
+                <SelectField field="Left_Profit" selected="True" input="Left_" />
+                <SelectField field="Right_Person" selected="True" input="Right_" />
+                <SelectField field="Right_Region" selected="True" rename="Right_Region" input="Right_" />
+                <SelectField field="*Unknown" selected="False" />
+              </SelectFields>
+            </Configuration>
+          </SelectConfiguration>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+    </Node>
+    <Node ToolID="18">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="498" y="90" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\User\AppData\Local\Temp\Engine_20556_c284717d03f0cf47aee231f90b35ed7b_\Engine_20556_1fb5d50db555ee4bba3bedc6205cfcb7~.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="21">
+      <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
+        <Position x="378" y="150" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <SummarizeFields>
+            <SummarizeField field="Customer Name" action="GroupBy" rename="Customer Name" />
+            <SummarizeField field="Sales" action="Sum" rename="Sum_Sales" />
+          </SummarizeFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxSummarize" />
+    </Node>
+    <Node ToolID="22">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+        <Position x="498" y="210" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <File FileFormat="19" MaxRecords="">sum-sales</File>
+          <Passwords />
+          <Disable>False</Disable>
+          <FormatSpecificOptions>
+            <NoSpatialIndex>False</NoSpatialIndex>
+            <SaveSource>True</SaveSource>
+            <WriteCompatibleVersion>False</WriteCompatibleVersion>
+          </FormatSpecificOptions>
+          <MultiFile value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>sum-sales</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="5" Connection="Left" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="4" Connection="Output" />
+      <Destination ToolID="5" Connection="Right" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="5" Connection="Join" />
+      <Destination ToolID="21" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="21" Connection="Output" />
+      <Destination ToolID="18" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="21" Connection="Output" />
+      <Destination ToolID="22" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <RunWithE2 value="True" />
+    <PredictiveToolsCodePage value="1252" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>Workflow sales</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+      <WorkflowId value="8e8fe88a-0d47-4d28-a42f-9ceb3fadf15c" />
+      <Telemetry>
+        <PreviousWorkflowId value="1aa7f497-b3de-496b-935b-82274661f05f" />
+        <OriginWorkflowId value="1aa7f497-b3de-496b-935b-82274661f05f" />
+      </Telemetry>
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>
