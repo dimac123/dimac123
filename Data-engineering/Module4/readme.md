@@ -1,5 +1,8 @@
 В этой папке Module4 находятся:
 
+- `Sample - Superstore` - файл с данными
+
+
 Pentaho
 - `staging orders.ktr` - трансформация, которая загружает данные из файлы Superstore в Postgres
 - `dim_tables.ktr` и `sales_fact.ktr` - трансформация, которая трансформирует данные (T в ETL) внутри нашей базы данных
@@ -8,7 +11,7 @@ Pentaho
 Alteryx 
 - `Workflow sales.yxmd` - трансформация, которая загружает данные из файлы Superstore в Postgres
 
-- `Sample - Superstore` - файл с данными
+
 
 
 
