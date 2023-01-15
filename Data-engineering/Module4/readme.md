@@ -1,14 +1,16 @@
 *В этой папке Module4 находятся:
 
 - `Sample - Superstore` - файл с данными
+- `Lab` - файлы job, transformation и резульаты по ним
+- `Sheduling_jo.bat` - shell скрипт на запуск job
 
 
-Pentaho
+*Pentaho
 - `staging orders.ktr` - трансформация, которая загружает данные из файлы Superstore в Postgres
 - `dim_tables.ktr` и `sales_fact.ktr` - трансформация, которая трансформирует данные (T в ETL) внутри нашей базы данных
 - `Pentaho Job.kjb` - главный job, который выполняет последовательность трансформаций (оркестрирует нашим data pipeline)
 
-Alteryx 
+*Alteryx 
 - `Workflow sales.yxmd` - трансформация, которая загружает данные из файлы Superstore в Postgres
 
 
