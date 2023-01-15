@@ -46,6 +46,18 @@
 
 ![Иллюстрация к проекту](https://github.com/dimac123/dimac123/blob/main/Data-engineering/Module4/Pentaho3.JPG)
 
+## Другой Job (папка Lab), установка переменных, скачивание файла, проверка на скачивание файла, трансформации
+
+![Иллюстрация к проекту](https://github.com/dimac123/dimac123/blob/main/Data-engineering/Module4/Pentaho6.JPG)
+
+**transformation_general.ktr** - выгрузка данных excel, сортировка+уникальные значения, LEFT Join, удаление определенныхъ полей, выгрузка в CSV
+![Иллюстрация к проекту](https://github.com/dimac123/dimac123/blob/main/Data-engineering/Module4/Pentaho7.JPG)
+
+**transformation_for_task.ktr** - выгрузка данных excel, сортировка, фильтр, выгрузка: CSV, JSON, XML, ZIP, DAT
+![Иллюстрация к проекту](https://github.com/dimac123/dimac123/blob/main/Data-engineering/Module4/Pentaho8.JPG)
+
+**transformation_replace.ktr** - выгрузка данных excel и dat, фильтр, замена, дублирование, выгрузка: CSV, DAT
+![Иллюстрация к проекту](https://github.com/dimac123/dimac123/blob/main/Data-engineering/Module4/Pentaho9.JPG)
 
 ## Устанавливаем Alteryx на локальный компьютер
 
