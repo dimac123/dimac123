@@ -23,7 +23,7 @@ Pas: root
 ![Иллюстрация к проекту](https://github.com/dimac123/dimac123/blob/main/Data-engineering/Module6/6-3.JPG)
 
 
-**IMPORT данных в Терадату через CLI**
+**IMPORT данных в Teradata через CLI**
 
 - `returns.csv` - файл с данными
 - `import_bteq.btq` - файл импорта:
@@ -60,3 +60,8 @@ bteq .run file = import_bteq.btq
 Результат испорта
 
 ![Иллюстрация к проекту](https://github.com/dimac123/dimac123/blob/main/Data-engineering/Module6/6-5.JPG)
+
+**Подключение BI к Teradata**
+Подключение успешно, данные доступны для построение отчетов
+
+![Иллюстрация к проекту](https://github.com/dimac123/dimac123/blob/main/Data-engineering/Module6/6-4.JPG)
