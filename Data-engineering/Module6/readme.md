@@ -52,7 +52,7 @@ VALUES( :Order_ID, :Returned);
 И запуск файла
 bteq .run file = import_bteq.btq
 
-![Иллюстрация к проекту](https://github.com/dimac123/dimac123/blob/main/Data-engineering/Module6/6-11.JPG)
+![Иллюстрация к проекту](https://github.com/dimac123/dimac123/blob/main/Data-engineering/Module6/6-4.JPG)
 
 Результат испорта
 
