@@ -23,6 +23,8 @@
 - `import_bteq.btq` - файл импорта
 
 Файл `import_bteq.btq` 
+
+```sh
 .logon 192.168.1.117/dbc,dbc
 
 DATABASE Superstore_st;
@@ -42,6 +44,8 @@ VALUES( :Order_ID, :Returned);
      
 .QUIT
 .LOGOFF
+```
+
 
 ![Иллюстрация к проекту](https://github.com/dimac123/dimac123/blob/main/Data-engineering/Module5/VPC.JPG)
 
