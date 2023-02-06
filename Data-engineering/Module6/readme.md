@@ -6,7 +6,15 @@
 
 ![Иллюстрация к проекту](https://github.com/dimac123/dimac123/blob/main/Data-engineering/Module6/6-1.JPG)
 
+**Подключаемся к Teradata через DBeaver**
 
+![Иллюстрация к проекту](https://github.com/dimac123/dimac123/blob/main/Data-engineering/Module6/6-2.JPG)
+
+**Скачиваем Teradata Tools and Utilities**
+Устанавливаем ODBC Driver, BTEQ. Добавляем в PATH ссылку на установленный клиент. Запуск Command Prompt(терминал)
+Авторизовываемся, SQL запрос на подсчет записей
+
+![Иллюстрация к проекту](https://github.com/dimac123/dimac123/blob/main/Data-engineering/Module6/6-3.JPG)
 
 ![Иллюстрация к проекту](https://github.com/dimac123/dimac123/blob/main/Data-engineering/Module5/VPC.JPG)
 
