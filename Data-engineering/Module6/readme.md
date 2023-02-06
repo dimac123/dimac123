@@ -20,9 +20,7 @@
 **IMPORT данных в Терадату через CLI**
 
 - `returns.csv` - файл с данными
-- `import_bteq.btq` - файл импорта
-
-Файл `import_bteq.btq` 
+- `import_bteq.btq` - файл импорта:
 
 ```sh
 .logon 192.168.1.117/dbc,dbc
