@@ -1,4 +1,12 @@
-## Создаем виртуальные машины в AWS
+## Настройка и работа с базой данных Teradata Express
+
+**Скачиваем Teradata, запуск на виртуальной машине**
+
+Проверяем доступность БД, выводим ip адрес виртуальной машины
+
+![Иллюстрация к проекту](https://github.com/dimac123/dimac123/blob/main/Data-engineering/Module6/6-1.JPG)
+
+
 
 ![Иллюстрация к проекту](https://github.com/dimac123/dimac123/blob/main/Data-engineering/Module5/VPC.JPG)
 
