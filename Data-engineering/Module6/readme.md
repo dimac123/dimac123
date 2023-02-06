@@ -19,8 +19,29 @@
 
 **IMPORT данных в Терадату через CLI**
 
+- `returns.csv` - файл с данными
+- `import_bteq.btq` - файл импорта
+
+Файл `import_bteq.btq` 
+.logon 192.168.1.117/dbc,dbc
+
+DATABASE Superstore_st;
+
+CREATE TABLE "Returns"
+(Order_ID varchar(20), Returned varchar(3))
+Primary Index (Order_id);
 
 
+.import vartext ',' file = 'returns.csv', SKIP=1
+.repeat*
+
+USING  (Order_ID varchar(20), Returned varchar(3))
+
+INSERT INTO "Returns" (Order_ID, Returned)
+VALUES( :Order_ID, :Returned);
+     
+.QUIT
+.LOGOFF
 
 ![Иллюстрация к проекту](https://github.com/dimac123/dimac123/blob/main/Data-engineering/Module5/VPC.JPG)
 
