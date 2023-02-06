@@ -6,9 +6,11 @@
 
 ![Иллюстрация к проекту](https://github.com/dimac123/dimac123/blob/main/Data-engineering/Module6/6-1.JPG)
 
+
 **Подключаемся к Teradata через DBeaver**
 
 ![Иллюстрация к проекту](https://github.com/dimac123/dimac123/blob/main/Data-engineering/Module6/6-2.JPG)
+
 
 **Скачиваем Teradata Tools and Utilities**
 
@@ -16,6 +18,7 @@
 Авторизовываемся, SQL запрос на подсчет записей
 
 ![Иллюстрация к проекту](https://github.com/dimac123/dimac123/blob/main/Data-engineering/Module6/6-3.JPG)
+
 
 **IMPORT данных в Терадату через CLI**
 
@@ -43,3 +46,10 @@ VALUES( :Order_ID, :Returned);
 .QUIT
 .LOGOFF
 ```
+
+В CMD устанавливаем путь файла
+"C:\Git\dimac123\Data-engineering\Module6"
+И запуск файла
+bteq .run file = import_bteq.btq
+
+![Иллюстрация к проекту](https://github.com/dimac123/dimac123/blob/main/Data-engineering/Module6/6-4.JPG)
