@@ -1,6 +1,6 @@
-## Настройка и работа с базой данных Teradata Express
+## PySpark
 
-**Скачиваем Teradata, запуск на виртуальной машине**
+**Установка и запуск Spark на Google colab**
 ```sh
 Log: root
 Pas: root
