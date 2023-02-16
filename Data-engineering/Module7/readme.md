@@ -22,3 +22,15 @@ from google.colab import files
 files.upload()
 ```
 ![Иллюстрация к проекту](https://github.com/dimac123/dimac123/blob/main/Data-engineering/Module7/7-1.JPG)
+
+```sh
+# читаем данные в DataFrame c автоматическим определение схемы:
+df = spark.read.format("csv").option("header", "true").load("cars.csv")
+```
+
+```sh
+# вывести в консоль 5 строк из датафрейма:
+df.show(5)
+```
+
+![Иллюстрация к проекту](https://github.com/dimac123/dimac123/blob/main/Data-engineering/Module7/7-2.JPG)
