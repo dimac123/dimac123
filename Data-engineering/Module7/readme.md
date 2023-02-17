@@ -37,8 +37,8 @@ df.show(5)
 
 ```sh
 # Дополнительный параметр vertical=True выведет каждую строку данных построчно в виде колонка | значение
-df.show(1, vertical=True)
-
+df.show(1, vertical=True)   
+```
 -RECORD 0-------------------------
  manufacturer_name | Subaru       
  model_name        | Outback      
@@ -48,5 +48,4 @@ df.show(1, vertical=True)
  year_produced     | 2010         
  engine_fuel       | gasoline     
  engine_has_gas    | False        
- engine_type       | gasoline     
-```
+ engine_type       | gasoline  
