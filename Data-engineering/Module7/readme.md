@@ -34,3 +34,19 @@ df.show(5)
 ```
 
 ![Иллюстрация к проекту](https://github.com/dimac123/dimac123/blob/main/Data-engineering/Module7/7-2.JPG)
+
+```sh
+# Дополнительный параметр vertical=True выведет каждую строку данных построчно в виде колонка | значение
+df.show(1, vertical=True)
+
+-RECORD 0-------------------------
+ manufacturer_name | Subaru       
+ model_name        | Outback      
+ transmission      | automatic    
+ color             | silver       
+ odometer_value    | 190000       
+ year_produced     | 2010         
+ engine_fuel       | gasoline     
+ engine_has_gas    | False        
+ engine_type       | gasoline     
+```
