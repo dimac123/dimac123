@@ -267,12 +267,75 @@ df.groupBy("manufacturer_name").count().orderBy(F.col("count").desc()).show(5)
 |          Renault| 2493|
 +-----------------+-----+
 only showing top 5 rows
+
+**.withColumnRenamed() and .withColumn()**
+Переименовать существующую колонку:
 ```
+df.withColumnRenamed("manufacturer_name", "manufacturer").select("manufacturer").show(5)
 ```sh
++------------+
+|manufacturer|
++------------+
+|      Subaru|
+|      Subaru|
+|      Subaru|
+|      Subaru|
+|      Subaru|
++------------+
+only showing top 5 rows
+
+Создать новую колонку. Первый аргумент это название новой колонки, второй агрумент это выражение (обязательно использовать col() если ссылаемся на другую колонку):
 ```
+df.withColumn("next_year", F.col("year_produced") + 1).select("year_produced", "next_year").show(5)
 ```sh
++-------------+---------+
+|year_produced|next_year|
++-------------+---------+
+|         2010|   2011.0|
+|         2002|   2003.0|
+|         2001|   2002.0|
+|         1999|   2000.0|
+|         2001|   2002.0|
++-------------+---------+
+only showing top 5 rows
+
+**.printSchema() and .describe()**
+Вывести схему датафрейма (типы колонок):
 ```
+df.printSchema()
 ```sh
+root
+ |-- manufacturer_name: string (nullable = true)
+ |-- model_name: string (nullable = true)
+ |-- transmission: string (nullable = true)
+ |-- color: string (nullable = true)
+ |-- odometer_value: string (nullable = true)
+ |-- year_produced: string (nullable = true)
+ |-- engine_fuel: string (nullable = true)
+ |-- engine_has_gas: string (nullable = true)
+ 
 ```
+df.schema
 ```sh
+StructType(List(StructField(manufacturer_name,StringType,true),StructField(model_name,StringType,true),StructField(transmission,StringType,true),StructField(color,StringType,true)
+```
+
+Вывести сводную статистику по датафрейму:
+```
+df.select("manufacturer_name", "model_name", "year_produced", "price_usd").describe().show()
+```sh
++-------+-----------------+------------------+------------------+-----------------+
+|summary|manufacturer_name|        model_name|     year_produced|        price_usd|
++-------+-----------------+------------------+------------------+-----------------+
+|  count|            38531|             38531|             38531|            38531|
+|   mean|             null|1168.2918056562726|2002.9437336170874|6639.971021255605|
+| stddev|             null| 9820.119520829581| 8.065730511309935|6428.152018202911|
+|    min|            Acura|               100|              1942|              1.0|
+|    max|              УАЗ|            Таврия|              2019|           9999.0|
++-------+-----------------+------------------+------------------+-----------------+
+```
+
+```sh
+#остановка сессии spark
+spark.stop()
 ```
